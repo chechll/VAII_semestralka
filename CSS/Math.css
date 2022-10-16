@@ -1,0 +1,20 @@
+.footer {
+    background-color: gray;
+    position: relative;
+    height: 20%;
+    clear: none;
+    padding-top:20px;
+}
+
+.navbar-custom {
+    background-color: lightgreen;
+}
+.navbar-custom a{
+    color: white;
+    background-color: lightgreen;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: lightgreen;
+    color: white;
+}

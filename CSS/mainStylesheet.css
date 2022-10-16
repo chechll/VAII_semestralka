@@ -15,17 +15,17 @@ body {
     background-color: lightgreen;
 }
 
+.navbar-nav > li > .dropdown-menu {
+    background-color: lightgreen;
+    color: white;
+}
+
 .footer {
     background-color: gray;
     position: relative;
     height: 20%;
     clear: none;
     padding-top:20px;
-}
-
-.navbar-nav > li > .dropdown-menu {
-    background-color: lightgreen;
-    color: white;
 }
 
 .container {
