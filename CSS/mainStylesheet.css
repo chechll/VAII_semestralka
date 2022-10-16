@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: lightblue;
+}
+.navbar-custom {
+    background-color: lightgreen;
+}
+.navbar-custom a{
+    color: white;
+    background-color: lightgreen;
+}
+
+.footer {
+    background-color: gray;
+    position: relative;
+    height: 20%;
+    clear: none;
+    padding-top:20px;
+}
+
+.navbar-nav > li > .dropdown-menu {
+    background-color: lightgreen;
+    color: white;
+}
+
+.container {
+    background-color: lightgreen;
+    color: white;
+}
+.about{
+    padding-top:5%;
+    text-align: center;
+}
+
+.img{
+    float: left;
+    margin: 2%
+}
