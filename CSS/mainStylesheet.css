@@ -51,15 +51,21 @@ body {
 
 .img{
     float: left;
-    margin: 2%
+    margin: 2%;
 }
 
 .reg{
     float: right;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 800px) {
     .padding {
-        padding: 10px;
+        padding: 5%;
+    }
+    .img{
+        width: 20% !important;
+        height: 20% !important;
+        float: left;
+        margin: 2%;
     }
 }
