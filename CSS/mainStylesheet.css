@@ -4,9 +4,14 @@
 
 body {
     font-family: Arial;
-    padding: 10px;
     background: lightblue;
 }
+
+.padding{
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
 .navbar-custom {
     background-color: lightgreen;
 }
@@ -15,9 +20,11 @@ body {
     background-color: lightgreen;
 }
 
-.navbar-nav > li > .dropdown-menu {
-    background-color: lightgreen;
-    color: white;
+
+/*.navbar-nav > li > .dropdown-menu,*/
+.dropdown-menu, .dropdown-menu a{
+    background-color: lightgreen !important;
+    color: white !important;
 }
 
 .footer {
@@ -26,6 +33,11 @@ body {
     height: 20%;
     clear: none;
     padding-top:20px;
+}
+
+.button_grade{
+    background-color: SaddleBrown !important;
+    border-style: none !important;
 }
 
 .container {
@@ -40,4 +52,14 @@ body {
 .img{
     float: left;
     margin: 2%
+}
+
+.reg{
+    float: right;
+}
+
+@media screen and (max-width: 480px) {
+    .padding {
+        padding: 10px;
+    }
 }

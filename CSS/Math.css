@@ -1,3 +1,12 @@
+h1{
+    padding-top: 5%;
+    margin-left: 7%;
+}
+
+h3, .list{
+    margin-left: 5%;
+    background-color: antiquewhite;
+}
 .footer {
     background-color: gray;
     position: relative;
