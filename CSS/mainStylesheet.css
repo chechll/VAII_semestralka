@@ -20,11 +20,10 @@ body {
     background-color: lightgreen;
 }
 
-
 /*.navbar-nav > li > .dropdown-menu,*/
 .dropdown-menu, .dropdown-menu a{
     background-color: lightgreen !important;
-    color: white !important;
+    color: red;
 }
 
 .footer {
@@ -44,8 +43,9 @@ body {
     background-color: lightgreen;
     color: white;
 }
+
 .about{
-    padding-top:5%;
+    padding-top:8%;
     text-align: center;
 }
 
