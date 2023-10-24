@@ -1,6 +1,6 @@
 h1{
-    padding-top: 5%;
-    margin-left: 7%;
+    padding-top: 8%;
+    text-align: center;
 }
 
 h3, .list{
@@ -26,4 +26,21 @@ h3, .list{
 .navbar-nav > li > .dropdown-menu {
     background-color: lightgreen;
     color: white;
+}
+
+.padding{
+    padding-left: 3cm;
+    padding-right: 3cm;
+}
+
+@media screen and (max-width: 800px) {
+    .padding {
+        padding: 10% 10% 1%;
+    }
+    .img{
+        width: 20% !important;
+        height: 20% !important;
+        float: left;
+        margin: 2%;
+    }
 }
