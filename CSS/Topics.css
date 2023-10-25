@@ -1,21 +1,29 @@
 body{
-    background-color: antiquewhite;
+    color: cornflowerblue;
+}
+
+p{
+    font-size: 130%;
 }
 
 h1{
     padding-top: 8%;
     text-align: center;
-    font-size: 10em;
 }
 
 h2{
     font-size: 2px;
 }
 
-h3, .list{
-    margin-left: 5%;
-    background-color: antiquewhite;
+li{
+    font-size: 120%;
 }
+
+h4 {
+    font-size: 4px;
+    font-weight: bold;
+}
+
 .footer {
     background-color: gray;
     position: relative;
@@ -42,6 +50,29 @@ h3, .list{
     padding-right: 3cm;
 }
 
+.images_raw{
+    display: inline-flex;
+}
+
+.images {
+    text-align: center;
+    margin: 20px;
+}
+
+img{
+    display: inline;
+}
+
+.col-sm-4{
+    border-style: solid;
+    border-color: gray;
+}
+
+
+.col-sm-3{
+    border-style: solid;
+    border-color: gray;
+}
 @media screen and (max-width: 800px) {
     .padding {
         padding: 10% 10% 1%;
@@ -51,5 +82,12 @@ h3, .list{
         height: 20% !important;
         float: left;
         margin: 2%;
+    }
+
+    .col-sm-4{
+        border-color: white;
+    }
+    .col-sm-3{
+        border-color: white;
     }
 }
